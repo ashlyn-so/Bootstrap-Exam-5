@@ -8,3 +8,24 @@ h1{
 .container{
     background-color:white;
 }
+.carousel-inner{
+     height: 600px;
+     background-color: rgb(28, 28, 136);
+     border: 5px;
+     border-style: solid;
+     border-color: black;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+a >img{
+    height:200px;
+    width:200px;
+}
+img{
+    height:400px;
+}
